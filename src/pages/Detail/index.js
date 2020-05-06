@@ -58,7 +58,7 @@ const Detail = ({match}) => {
   useEffect(() => {
     const cryptoId = match.params.id; // según se estableció en App.js en <Route path="/detail/:id" component={Detail} />
 
-    if (!crypto || crypto && crypto.id !== cryptoId ) {
+    if (!crypto || crypto.id !== cryptoId ) {
       dispatch(searchCryptoById({cryptoId}));
     }
   });
