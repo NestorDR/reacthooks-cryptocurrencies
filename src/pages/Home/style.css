@@ -1,0 +1,32 @@
+.mainContainer,
+.cardContainer,
+.titleGridContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainContainer {
+    flex-direction: column;
+    height: 100vh;
+}
+.cardContainer {
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    padding: 2rem;
+}
+.titleIcons {
+    font-size: 32px;
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+}
+.textFieldSearch {
+    width: 90%;
+}
+.buttonsContainer {
+    margin-top: .5rem;
+}
+.buttonMargin {
+    margin: .5rem;
+}
