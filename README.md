@@ -1,10 +1,10 @@
 ## Description
 
-This example is a simple application that allows you to test some React and React-Redux hooks. The application implements information queries about cryptomonies, taking advantage of the Nomics API [Nomics API](https://docs.nomics.com/).
+This example is a simple application that allows you to test some **React and React-Redux hooks**. The application implements information queries about cryptomonies, taking advantage of the Nomics API [Nomics API](https://docs.nomics.com/).
 
 You can find an even simpler example at [learn-hooks](https://github.com/NestorDR/learn-hooks).
 
-Hooks are a new feature in React v16.8. They allow you to use the state, effect and other features of React without writing a class.
+Hooks are a new feature in **React v16.8**. They allow you to use the state, effect and other features of React without writing a class.
 
 This example allows you to test useState and useEffect, along with some [Material-UI](https://material-ui.com/) controls.
 
@@ -16,7 +16,7 @@ It's the hook of React.Js that allows to carry out secondary effects in function
 
 By using this hook, we tell React.Js that the component must do something after it is rendered.
 
-In addition, this example uses the React-Redux library, which from v7.10 offers a [set of hook APIs](https://react-redux.js.org/next/api/hooks) as an alternative to the existing connect() Higher Order Component. These APIs allow you to subscribe to the Redux store and dispatch actions, without having to wrap your components in connect().
+In addition, this example uses the **React-Redux** library, which from **v7.10** offers a [set of hook APIs](https://react-redux.js.org/next/api/hooks) as an alternative to the existing connect() Higher Order Component. These APIs allow you to subscribe to the Redux store and dispatch actions, without having to wrap your components in connect().
 
 This example allows you to test useDispatch and useSelector. Also uses the Axios and Redux-Saga libraries.
 
