@@ -2,7 +2,7 @@
 
 This example is a simple application that allows you to test some **React and React-Redux hooks**. The application implements queries about cryptocurrencies, taking advantage of the [Nomics API](https://docs.nomics.com/).
 
-You can find an even simpler example at [learn-hooks](https://github.com/NestorDR/learn-hooks).
+This example has a lot of comments in Spanish within its code. You can find an even simpler example at [learn-hooks](https://github.com/NestorDR/learn-hooks).
 
 Hooks are a new feature in **React v16.8**. They allow you to use the state, effect and other features of React without writing a class.
 

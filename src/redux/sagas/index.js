@@ -1,5 +1,5 @@
 /*
-  redux-saga es una biblioteca que se encarga los efectos secundarios o colaterales de la aplicación, por ejemplo
+  redux-saga es una biblioteca que se encarga de los efectos secundarios o colaterales de la aplicación, por ejemplo
     - obtención asincrónica de datos
     - accesos al caché del navegador
   para que sean más fáciles de administrar, eficientes de ejecutar, fáciles de testear y manejar errores.

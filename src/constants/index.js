@@ -1,5 +1,5 @@
 // Crytocurrecncies Rest API - Visitar https://docs.nomics.com/#section/Authentication
-// key=42d54b10ab1120333958c539ce69578d
+// export const API_KEY = 'key=42d54b10ab1120333958c539ce69578d';
 export const API_KEY = 'key=demo-26240835858194712a4f8cc0dc635c7a';
 export const BASE_URL = 'https://api.nomics.com/v1';
 

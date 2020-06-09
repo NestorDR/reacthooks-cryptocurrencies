@@ -102,7 +102,7 @@ const Detail = ({match}) => {
 };
 
 Detail.propTypes = {
-  match: PropTypes.object.isRequired,
+    match: PropTypes.object.isRequired,
 };
 
 export default Detail;
