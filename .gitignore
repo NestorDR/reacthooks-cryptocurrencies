@@ -4,7 +4,7 @@
 /.idea
 /.vscode
 /.vs
-/progress
+/snippets
 
 # dependencies
 /node_modules

@@ -74,7 +74,7 @@ const List = ({location}) => {
       ? <div>
           <Typography className='centerAlign' component='h3' variant='h3' gutterBottom>Criptomonedas</Typography>
           <div className='cryptoList'>
-            { cryptos.map((values, index) => <Item key={index} {...values}/>) }
+            { cryptos.map((value, index) => <Item key={index} {...value}/>) }
           </div>
         </div>
       : isLoading
