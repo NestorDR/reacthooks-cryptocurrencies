@@ -13,7 +13,8 @@ export default function(state = initialState, action) {
   switch (action.type) {
     case SEARCH_CRYPTOCURRENCY_START:
       // isLoading se establece a TRUE como indicador de que se está se está cargando data o esperando respuesta del servidor
-      return {...state, isLoading: true};
+       console.log('reducer.search');
+      return {...state, isLoading: true, cryptos: null};
     case SEARCH_CRYPTOCURRENCY_SUCCEEDED:
       // console.log(action.payload.data);
       // isLoading se establece a FALSE tras respuesta exitosa al request enviado al servidor

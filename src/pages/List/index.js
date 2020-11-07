@@ -62,11 +62,11 @@ const List = ({location}) => {
     const {symbolList} = queryString.parse(location.search.replace('?', ''));
     // console.log('Results, props.location.search:', symbolList);
 
-    if (symbolList && !cryptos) {
+    if (symbolList) {
       // dispatch al store un objeto plano action igual a {type, payload}, que fué devuelto por searchCrypto
       dispatch(searchCrypto({symbolList}));
     }
-  });
+  }, []);
 
   const renderList = () => {
     // console.log(cryptos);

@@ -46,13 +46,13 @@ export default ({history}) => {
     setSearchList(newSearhLost);
   };
 
-  const handleClearListClick = event => {
+  const handleClearListClick = () => {
     // console.log('handleClearListClick');
     setSearchList('');
   };
 
-  const handleSearchListClick = event => {
-    // console.log('handleSearchListClick');
+  const handleSearchListClick = () => {
+    // console.log('handleSearchListClick', searchList);
     history.push(`/list?symbolList=${searchList}`);
   };
 

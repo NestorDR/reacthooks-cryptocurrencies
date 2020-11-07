@@ -15,7 +15,7 @@ export function* searchCrypto({payload}) {
   try {
     // con call se creará un request llamando a la API con un método GET
     const result = yield call(apiCall, 'currencies', `&ids=${payload.symbolList}&attributes=id,name,logo_url,description`, null, null, 'GET');
-    // console.log(result);
+    console.log(result.data);
 
     // si la respuesta es exitosa, con put se lanzará la acción SEARCH_CRYPTOCURRENCY_SUCCEEDED
     yield put({type: SEARCH_CRYPTOCURRENCY_SUCCEEDED, payload: { data: result.data}});
